@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vision & Mission</title>
+    <link rel="stylesheet" type="text/css" href="css/vision.css" <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo3.png" </a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="about.html">About Us</a> </li>
+                        <li><a href="contact.html">Contacts Us</a> </li>
+                        <li><a href="library.html">Library</a> </li>
+                        <li><a href="login.html">Academic portal</a> </li>
+                        <li><a href="search.html">Search</a> </li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div>
+            <h1>VISION</h1>
+            <p>Our Vision is to be the leading business school with the highest quality standard to develop future generations to support the socio-economic development in Cambodia and the Region.</p>
+        </div>
+        <div>
+            <h1>MISSION</h1>
+            <p>Our mission is to provide learners with the superior quality of higher education services and professional training in business education to build their:<br>1. Knowledge<br>2. Professional Skills<br> 3. Experiences<br>4. Ethics<br>5. Networking
+                <br>In order to enhance their professional future careers, we will at all times observe the highest principles of ethical behaviour, respect for a diverse and multi-cultural society, laws and regulations and the environment.</p>
+            <h1>GOAl</h1>
+            <p>Our goal is to build the highest employability for our graduated students.</p>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="foot2 icons">
+            <a href="feedback.html">Feedback Form
+            <h5>Connect with us on</h5>
+            <i class="fab fa-facebook" ></i>
+            <i class="fab fa-facebook-messenger"></i>
+            <i class="fab fa-telegram"></i>
+        </div>
+    </section>
+    <!-----javascript for toggle menu------>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+
+</html>

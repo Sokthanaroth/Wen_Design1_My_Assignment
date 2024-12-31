@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GENERALCHINESEPROGRAM(GCP)</title>
+    <link rel="stylesheet" type="text/css" href="css/china.css" <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo3.png" </a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="about.html">About Us</a> </li>
+                        <li><a href="contact.html">Contacts Us</a> </li>
+                        <li><a href="library.html">Library</a> </li>
+                        <li><a href="login.html">Academic portal</a> </li>
+                        <li><a href="search.html">Search</a> </li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div>
+            <h1>GENERAL CHINESE PROGRAM (GCP)</h1>
+
+            <p>This program is designed to meet the needs of job market in Cambodia. It is a tailored program started from beginner to advance made to help students to communicate daily with the emphasis on four macro skills such as reading, writing, listening,
+                and speaking. Student will be able to use Chinese with their job with confidence.</p>
+        </div>
+    </section>
+    <section class="time" style="margin-top: 5%;">
+        <center>
+
+            <div style="overflow-y:auto;">
+                <table cellpadding="0" cellspacing="1" style="min-width:700px;">
+                    <tbody>
+                        <tr>
+                            <th width="15%">Course</th>
+                            <th>Level</th>
+                            <th width="20%">Course Book</th>
+                            <th width="20%">Prerequisite</th>
+                            <th width="20%">Time</th>
+                            <th width="15%">Duration/level</th>
+                        </tr>
+                        <tr>
+                            <td><strong>GCP</strong></td>
+                            <td>1A<br>1B<br>1C<br>2A<br>2B<br>2C<br>3A<br>3B<br>3C<br>4A<br>4B<br>4C</td>
+                            <td>Kualie Hayu Road to Success</td>
+                            <td>Placement test result</td>
+                            <td>Weekday:<br>4:30pm – 6:30pm<br>5:30pm – 7:30pm<br><br>Weekend:<br>8-11am<br>1-4pm</td>
+                            <td>70hours</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </center>
+    </section>
+
+    <section class="footer">
+        <div class="foot2 icons">
+            <a href="feedback.html">Feedback Form
+            <h5>Connect with us on</h5>
+            <i class="fab fa-facebook" ></i>
+            <i class="fab fa-facebook-messenger"></i>
+            <i class="fab fa-telegram"></i>
+        </div>
+    </section>
+    <!-----javascript for toggle menu------>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6. On-the-Job Training </title>
+    <link rel="stylesheet" type="text/css" href="css/external1.css" <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo3.png" </a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="about.html">About Us</a> </li>
+                        <li><a href="contact.html">Contacts Us</a> </li>
+                        <li><a href="library.html">Library</a> </li>
+                        <li><a href="login.html">Academic portal</a> </li>
+                        <li><a href="search.html">Search</a> </li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div>
+            <h1>Skill Development Training for Students and Public</h1>
+
+            <p> Courses are arranged for staff of ACLEDA Subsidiary Companies to practice their skills effectively in their own different area with ACLEDA Bank Plc.
+            </p></div></section>
+                <section class="footer">
+        <div class="foot2 icons">
+            <a href="feedback.html">Feedback Form
+            <h5>Connect with us on</h5>
+            <i class="fab fa-facebook" ></i>
+            <i class="fab fa-facebook-messenger"></i>
+            <i class="fab fa-telegram"></i>
+        </div>
+    </section>
+    <!-----javascript for toggle menu------>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+
+</html>

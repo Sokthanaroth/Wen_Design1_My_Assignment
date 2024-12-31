@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACLEDA INSTITUTE OF BUSINESS</title>
+    <link rel="stylesheet" type="text/css" href="css/logo.css" <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo3.png" </a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="about.html">About Us</a> </li>
+                        <li><a href="contact.html">Contacts Us</a> </li>
+                        <li><a href="library.html">Library</a> </li>
+                        <li><a href="login.html">Academic portal</a> </li>
+                        <li><a href="search.html">Search</a> </li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section >
+    <section class="logo" style="height: 65vh;">
+        <div class="logo-col">
+        <h1>Our Logo</h1>
+        <p>Click on the download link below to save the logo of ACLEDA INSTITUTE OF BUSINESS on to your hard disk in high resolution in its file format respectively.</p>
+    </div>
+        <div class="row">
+        <div class="logo-col">
+         <img src="images/logo2.png" >
+             </div>
+             <div class="logo-col">
+                <a href="https://www.acleda-aib.edu.kh/tc/assets/pdf_zip/logo-blue-white.png">Download PNG</a>
+            <br><a href="https://www.acleda-aib.edu.kh/tc/assets/pdf_zip/logo-blue-white.ai">Download AI (Vector)</a>
+             </div>
+            </div>
+        <div class="logo-col">
+            <p class="note"><u>Note</u>: "ACLEDA INSTITUTE OF BUSINESS and its logo are registered trademarks of ACLEDA INSTITUTE OF BUSINESS and no permission or license is granted to use any such trademarks or service marks without the prior written consent of ACLEDA INSTITUTE
+            OF BUSINESS.</p>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="foot2 icons">
+            <a href="feedback.html">Feedback Form
+            <h5>Connect with us on</h5>
+            <i class="fab fa-facebook" ></i>
+            <i class="fab fa-facebook-messenger"></i>
+            <i class="fab fa-telegram"></i>
+        </div>
+
+    </section>
+    <!-----javascript for toggle menu------>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+
+</html>

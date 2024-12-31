@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" type="text/css" href="css/about.css" <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo3.png" </a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="about.html">About Us</a> </li>
+                        <li><a href="contact.html">Contacts Us</a> </li>
+                        <li><a href="library.html">Library</a> </li>
+                        <li><a href="login.html">Academic portal</a> </li>
+                        <li><a href="search.html">Search</a> </li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>AIB Profile</h1>
+        <p>ACLEDA Institute of Business (AIB) was recognized by the Royal Government of Cambodia through a sub decree No 13.Or Nor Kro.Bor Kor dated Jan 25, 2016 as a private higher education institution, transforming from ACLEDA Training Center (ATC) which
+            is one of ACLEDA Bank Plc's subsidiary companies as a private limited company.
+
+            <p>Originally, ATC was formed in August 2011 under the Regulations of Commercial Rules and Register Law, Commercial Enterprises Law, Civil Code, and Penal Code of the Kingdom of Cambodia by merging Training Division of ACLEDA Bank Plc. [created
+                in 2000, played a crucial role in building the capacity of ACLEDA staff to contribute to the Bank's success over the years] with ACLEDA-ASEAN Regional Microfinance Training Center [established by ACLEDA Bank Plc in 2008 with the generous
+                support of the Royal Government of Cambodia, and co-financed by the Federal Republic of Germany through KfW to provide training locally and internationally, focusing on MFIs in the ASEAN Region plus China] and then, it was acknowledged
+                by the Ministry of Commerce of the Kingdom of Cambodia as a Single Member Private Limited Company on September 13, 2011 to provide training services to ACLEDA staff as well as local and international participants from other organizations
+                and the public (External Participants). To continue its sustainable missions, AIB provides both higher education services on department of business administration and professional training services in field of finance and banking to local
+                and international students and graduates, participants from other organizations, and the public as well as ACLEDA Bank's staff.</p>
+        </p>
+    </section>
+    <section class="about">
+        <h1>ABOUT MORE</h1>
+        <div class="row">
+            <div class="about-col">
+                <h3><a href="logo.html">Our Logo</a></h3>
+            </div>
+            <div class="about-col">
+                <h3><a href="chart.html">Organisational Chart</a></h3>
+            </div>
+            <div class="about-col">
+                <h3><a href="Vision.html">Vision and Mission</a></h3>
+            </div>
+            <div class="about-col">
+                <h3><a href="license.html">License</a></h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="foot2 icons">
+            <a href="feedback.html">Feedback Form
+            <h5>Connect with us on</h5>
+            <i class="fab fa-facebook" ></i>
+            <i class="fab fa-facebook-messenger"></i>
+            <i class="fab fa-telegram"></i>
+        </div>
+
+    </section>
+    <!-----javascript for toggle menu------>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+
+</html>
